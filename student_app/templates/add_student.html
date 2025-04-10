@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+</head>
+<body>
+    <h1>Add Student</h1>
+    <form method="post">
+        <label>Name:</label>
+        <input type="text" name="name" required><br>
+        <label>Roll No:</label>
+        <input type="text" name="roll" required><br>
+        <input type="submit" value="Add Student">
+    </form>
+    <a href="{{ url_for('index') }}">Back to Student List</a>
+</body>
+</html>
